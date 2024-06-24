@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar .navbar-brand {
+    float: left;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-decoration: underline overline red;
+    color: #fff;
+}
+
+.navbar .nav {
+    list-style: none;
+    float: right;
+}
+
+.navbar .nav-item {
+    display: inline;
+    font-size: 1.5em;
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.navbar .nav-link:hover {
+    color: #ffcc00;
+}
+
+/* Header */
+.header {
+    
+    color: #0000ff;
+    padding: 4rem 0;
+}
+
+.header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.header .header-text {
+    max-width: 600px;
+}
+
+.header .title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header .subtitle {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.header .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header .btn:hover {
+    background: #ff9900;
+}
+
+/* About Section */
+.about {
+    padding: 2rem 0;
+}
+
+.about h2 {
+    text-align: center;
+    text-decoration: underline blue;
+    font-size: 2em;
+    
+    margin-bottom: 1rem;
+}
+
+/* Projects Section */
+.projects {
+    padding: 2rem 0;
+ ;
+}
+
+
+.project-image{
+    width: 550px;
+    height: 350px;
+    
+    margin-right: 1rem;
+}
+    
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: underline blue;
+    font-size: 2em;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    width: calc(50% - 2rem);
+    box-sizing: border-box;
+}
+
+
+
+.project-item h3 {
+    margin-top: 0;
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 2em;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2em;
+    text-decoration: underline blue;
+}
+
+.contact p {
+    text-align: center;
+}
